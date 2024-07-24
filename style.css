@@ -39,8 +39,9 @@ body{
     background-color: #1f2937;
     color: white;
     display: flex;
-    justify-content: space-around;
-    padding: 18px;
+    justify-content: space-between;
+    min-height: 500px;
+    padding: 20px 18rem;
 }
 .container-item-one img{
     width: auto;
@@ -100,6 +101,36 @@ body{
 .container-item-two{
     background-color: white;
     min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-item-two .content-header{
+    padding: 20px 30px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.container-item-two .container-box .content-box{
+    border: 2px solid #3b82f6;
+    min-height: 200px;
+    max-width: 200px;
+    border-radius: 20px;
+}
+.container-item-two .container-box{
+    display: flex;
+    gap: 32px;
+}
+.container-item-two .container-box .item{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-item-two .container-box .item .content-text{
+    max-width: 200px;
+    display: flex;
+
+    
 }
 .container-item-three{
     background-color: #e5e7eb;
